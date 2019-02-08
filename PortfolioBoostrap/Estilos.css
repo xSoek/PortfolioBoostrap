@@ -3,7 +3,7 @@
   padding: 0;
 }
 .row {
-  margin-top: 5%;
+  margin-top: 2%;
 }
 .titulo{
   margin-bottom: 5%;
@@ -12,10 +12,17 @@
   border: 2px solid;
   text-align: center;
 }
-
+.perfil{
+  border:2px solid;
+}
 .datos{
+  padding: 0;
   border: 2px solid;
-margin-top: 1%;
+  margin-top: 1%;
+}
+.datosmd{
+  margin-left: 5%;
+  margin-top: 2%;
 }
 .menu1{
   padding: 5%;
@@ -27,9 +34,12 @@ margin-top: 1%;
 .infancia{
   border: 2px solid;
 }
-.carousel-control-next{
-
+.infanciamd{
+  margin-left: 2%;
+  margin-top: 4%;
+  text-align: center;
 }
+
 .SOM{
   padding: 5%;
   margin-bottom: 5%;
