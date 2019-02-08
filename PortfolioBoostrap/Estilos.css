@@ -5,6 +5,9 @@
 .row {
   margin-top: 5%;
 }
+.titulo{
+  margin-bottom: 5%;
+}
 .col-12{
   border: 2px solid;
   text-align: center;
@@ -12,7 +15,7 @@
 
 .datos{
   border: 2px solid;
-  margin:1%;
+margin-top: 1%;
 }
 .menu1{
   padding: 5%;
@@ -26,4 +29,11 @@
 }
 .carousel-control-next{
 
+}
+.SOM{
+  padding: 5%;
+  margin-bottom: 5%;
+}
+.pr1{
+  margin-bottom: 10%;
 }
