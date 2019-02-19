@@ -7,7 +7,7 @@ body{
 background: url("fondo.jpg");
 }
 .container{
-
+padding: 0;
 }
 .row {
   margin-top: 1%;
@@ -18,9 +18,6 @@ background: url("fondo.jpg");
 .d-md-none{
   margin-left: 5px;
   margin-right: 5px;
-}
-.skil{
-  display: grid;
 }
 .titulo{
   margin-bottom: 5%;
@@ -107,3 +104,11 @@ width: 3%;
 .skill{
   text-align: center;
 }
+.nombre{
+  text-align: center;
+  border: 2px solid;
+  padding: 5%;
+  }
+  #name{
+    font-size: 24px;
+  }
