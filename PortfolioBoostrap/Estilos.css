@@ -5,6 +5,9 @@
 }
 body{
 background: url("fondo.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed
+
 }
 .container{
 padding: 0;
@@ -61,9 +64,12 @@ padding: 0;
   margin-left: 4%;
   margin-top: 1%;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .SOM{
+text-align: center;
   padding: 5%;
   margin-bottom: 5%;
 }
@@ -103,6 +109,12 @@ width: 3%;
 }
 .skill{
   text-align: center;
+
+}
+.skilllg{
+  text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 .nombre{
   text-align: center;
@@ -112,3 +124,29 @@ width: 3%;
   #name{
     font-size: 24px;
   }
+#navbarsom{
+  transition: all .2s ease-in-out;
+}
+#navbarsom, #navbarproy, #navbarskill {
+  text-align: right;
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
+#navbarsom:hover, #navbarproy:hover, #navbarskill:hover {
+    transform: scale(1.02);
+
+}
+.fotoperfil{
+  margin-top: 2%;
+}
+.arriba{
+  border: 2px solid;
+  margin-left: 40%;
+  transform: rotate(90deg);
+}
+
+.arriba:hover{
+	transition: 1s ease;
+	transform: rotate(0deg);
+}
