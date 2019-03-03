@@ -46,6 +46,7 @@ a:hover{
 background-color: #0039e6;
 }
 .desde1999{
+  font-family: 'Rajdhani', sans-serif;
   text-align: center;
   padding-top: 10%;
   padding-bottom: 10%;
@@ -151,16 +152,17 @@ opacity: 0;
 }
 .nombre{
   text-align: center;
-
   padding: 5%;
-  }
-  #name{
+}
+#name{
     font-size: 24px;
-  }
+}
+
 #navbarsom{
   transition: all .2s ease-in-out;
 
 }
+
 #navbarsom, #navbarproy, #navbarskill {
   text-align: right;
   padding: 5%;
@@ -169,14 +171,13 @@ opacity: 0;
 
 #navbarsom:hover, #navbarproy:hover, #navbarskill:hover {
     transform: scale(1.02);
-
 }
+
 .fotoperfil{
   margin-top: 2%;
 
 }
 .arriba{
-
   margin-left: 40%;
   transform: rotate(90deg);
 }
@@ -184,4 +185,39 @@ opacity: 0;
 .arriba:hover{
 	transition: 1s ease;
 	transform: rotate(-90deg);
+}
+.grafica{
+  background-color: black;
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 5%;
+  border:2px solid;
+}
+.grafica1{
+  background-color: black;
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 5%;
+  border:2px solid;
+}
+.grafica2{
+  background-color: black;
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 5%;
+  border:2px solid;
+}
+.grafica3{
+  background-color: black;
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 5%;
+  border:2px solid;
+}
+.grafica4{
+  background-color: black;
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 5%;
+  border:2px solid;
 }
